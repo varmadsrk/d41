@@ -10,7 +10,7 @@
 
 ## For users it is recommended to use the values from 9-125
 
-exit 5
+# exit 5            ## To Exit the program with status code 5
  
  sample(){
         echo Hello

@@ -18,3 +18,8 @@ Topics of shell scripting
     - Case
     - If
 8. Loops
+    - while
+    - for
+    - until (reverse of while)
+    - select (reverse of for)
+9. sed Command

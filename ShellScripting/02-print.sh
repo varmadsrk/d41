@@ -16,5 +16,12 @@ echo Hello
  ## Printing I want to do in single command
 
  echo Hello How are You?
+
+ # For printing multiple lines we have escape sequences, man echo, can provide you all the escape sequences. 
+ #  Out of them /n to print New line, /t to print new tab space, /e to enable new color 
+
+ echo Hello\nHow are you?
  
-  
+ # With Out Quotes \ will be ignored
+
+ echo "Hello\nHow are You?"

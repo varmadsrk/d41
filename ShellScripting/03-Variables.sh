@@ -41,7 +41,7 @@ echo Hello good morning, Today date is $DATE
 
 ## Arth
 
-ADD={{2+3}}
+ADD=$((2+3))
 
 echo $(ADD)
 
@@ -50,3 +50,7 @@ echo $(ADD)
 
 echo A = $A 
 
+## Local Variable can be converted into environment variable using 
+# export command
+
+#Note: Variable names should contain only a-z, 0-9, _(Underscore)

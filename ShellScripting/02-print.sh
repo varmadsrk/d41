@@ -45,6 +45,10 @@ echo Hello
  # Cyan                 36                  46
 
  # echo -e "\e[COLmHello\e[0m"
-
- echo -e "\e[31mHello in Red\e[0m"
+ # \e -> \033
  
+ echo -e "\e[31mHello in Red\e[0m"
+
+## Follow this for more colors.
+## https://misc.flogisoft.com/bash/tip_colors_and_formatting
+

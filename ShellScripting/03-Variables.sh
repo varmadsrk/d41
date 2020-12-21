@@ -8,7 +8,7 @@
 a=10
 b=20.0
 c=hello
-d=hellow world
+d="hellow world"
 
 ## Data is not specific to type, Everything is string.
 ## Access the variable using $ character preceding to that
@@ -41,8 +41,9 @@ echo Hello good morning, Today date is $DATE
 
 ## Arth
 
-ADD=((2+3))
+ADD={{2+3}}
 
+echo $(ADD)
 
 ## by default variables are local, means in the shell if i declare
 #  a variable that can't be accessed inside the script

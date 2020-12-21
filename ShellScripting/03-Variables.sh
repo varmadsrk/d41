@@ -37,3 +37,15 @@ echo Hello good morning, Today date is $DATE
 
 DATE=$(date +%F)
 echo Hello good morning, Today date is $DATE
+
+
+## Arth
+
+ADD=((2+3))
+
+
+## by default variables are local, means in the shell if i declare
+#  a variable that can't be accessed inside the script
+
+echo A = $A 
+

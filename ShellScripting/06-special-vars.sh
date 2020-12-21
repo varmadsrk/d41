@@ -9,6 +9,9 @@ echo First Argument = $1
 
 ## Second Argument - $2 , nth argument - $n
 
-echo $*
+## $* or $@ print all parsed arguments
+echo all arguments(\$*) =  $*
+echo All Arguments(\$@)  = $@
+
 
 

@@ -8,5 +8,5 @@ OS=(Solaris Linux Bsd Windows Macos)
 index=0
 while [ $index -lt ${#OS[*]} ]; do
     echo ${OS[$index]}
-    index=$(($index+!))
+    index=$(($index+1))
 done

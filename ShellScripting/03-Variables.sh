@@ -15,8 +15,11 @@ d=hellow world
 # Ex : $a, $b
 
 echo $a
+echo $c
 echo $d 
 
 # Also you can access a varaible using ${a} in certain situations.
 
 echo $aapples
+
+echo ${a}aapples

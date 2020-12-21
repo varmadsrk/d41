@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## Case command is used to validate a variable with list of values and value matches with 
-   variable then it is going to execute the commands associated to that value.
+#   variable then it is going to execute the commands associated to that value.
 
 ## Syntax of Case Statement
    case $var in 

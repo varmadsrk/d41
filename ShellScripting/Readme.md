@@ -15,4 +15,6 @@ Topics of shell scripting
 5. Functions
 6. Redirectors, Quotes, Exit Status
 7. Conditions
+    - Case
+    - If
 8. Loops

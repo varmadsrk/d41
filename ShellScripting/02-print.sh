@@ -28,3 +28,6 @@ echo Hello
 
  # Escape sequences in echo command will work only when you enable with -e option
  echo -e "Hello\nHow are You?\tBye"
+
+ ## Printing tab spaces
+ echo -e "Name\t\tMarks\nRaju\t\t20\nRamu\t\t30"

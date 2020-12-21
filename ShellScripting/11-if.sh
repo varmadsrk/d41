@@ -16,7 +16,7 @@
 ## Check the user executing this script is a root user or not
 
 USER_ID=$(id -u)
-if [$USER_ID -eq 0]; then
+if [ $USER_ID -eq 0 ]; then
     echo "You are a root User"
 else   
     echo "You are not a root User"

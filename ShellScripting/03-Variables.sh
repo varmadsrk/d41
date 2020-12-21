@@ -22,4 +22,18 @@ echo $d
 
 echo $aapples
 
-echo ${a}aapples
+echo ${a}apples
+
+
+DATE=2019-09-24
+
+echo Hello good morning, Today date is $DATE
+
+## All the times we may not hardcode a content into a variable but where as it needs dynamically
+
+## Variable Declaration can be done dynamically using 
+## 1. Command Substitution
+## 2. Arithmetic Substitution
+
+DATE=$(date +%F)
+echo Hello good morning, Today date is $DATE

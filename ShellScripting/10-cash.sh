@@ -18,7 +18,11 @@
 
     case $1 in
         start)
-            echo "Starting XYZ Service"
+            echo "Starting XYZ Service";;
         stop)
-            echo "Stopping XYZ Service"
+            echo "Stopping XYZ Service";;
+        *)
+            echo -e "\e[33mArgument Missing\e[0m"
+            echo "Usage: $0 start / stop"
+            exit 1
     esac

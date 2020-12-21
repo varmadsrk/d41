@@ -14,7 +14,8 @@
  
  sample(){
         echo Hello
-        exit
+        #exit
+        return 1
         echo Hai
  }
 

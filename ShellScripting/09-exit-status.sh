@@ -11,3 +11,12 @@
 ## For users it is recommended to use the values from 9-125
 
 exit 5
+ 
+ sample(){
+        echo Hello
+        exit
+        echo Hai
+ }
+
+sample
+echo "Good Morning"

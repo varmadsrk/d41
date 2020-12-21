@@ -43,8 +43,6 @@ echo Hello good morning, Today date is $DATE
 
 ADD=$((2+3))
 
-echo $(ADD)
-
 ## by default variables are local, means in the shell if i declare
 #  a variable that can't be accessed inside the script
 
